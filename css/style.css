@@ -23,10 +23,17 @@ body{
     background: linear-gradient(90deg, rgba(119,83,114,1) 0%, rgba(32,212,142,1) 0%, rgba(40,173,72,1) 33%, rgba(43,156,43,1) 47%, rgba(45,145,68,1) 68%, rgba(49,126,108,1) 68%, rgba(44,151,55,1) 68%, rgba(47,134,90,1) 84%, rgba(53,103,159,1) 91%, rgba(50,120,121,1) 98%);
 }
 .intro{
-    margin-top:220px;
+    margin-top:91px;
     height: 60vh;
-    margin-bottom: 220px;
+    margin-bottom: 190px;
+    
 
+}
+.page-bag{
+    background: url(../img/landing-background.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 .spacing{
     letter-spacing: 6.8px;
@@ -448,6 +455,7 @@ iframe{
     padding: 5px;
     width: 80%;
     margin: 10px 0;
+    font-size: 12px;
     font-family: "Poppins",sans-serif;
     border: 1px solid #8b8b99;
     border-radius: 6px;
